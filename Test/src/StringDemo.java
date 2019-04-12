@@ -17,6 +17,7 @@ public class StringDemo {
         //只要右键项目—pull一下就可以了
         //修复idea push提交每次everything的问题
         //是否每次需要右键项目add--然后再push---不正确，还是会提示everything
+        //不管了，每次麻烦点儿就是了
     }
 }
 
