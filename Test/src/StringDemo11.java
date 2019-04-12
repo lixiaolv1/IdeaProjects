@@ -1,4 +1,4 @@
-public class StringDemo {
+public class StringDemo11 {
     public static void main(String[] args) {
         //字符串的不可变性
 
@@ -19,7 +19,7 @@ public class StringDemo {
         //是否每次需要右键项目add--然后再push---不正确，还是会提示everything
         //不管了，每次麻烦点儿就是了----要不再试试？——md，果然还是不行，只能通过命令提交
         //4-12在家提交---失败，尝试使用命令提交吧--原来要关闭代码检查-右键项目里面的commit里的perform code
-        //参考最后步骤，直接成功
+        //参考最后步骤，直接成功--有小毛病，为什么呢，是因为没有写更新备注吗-为什么啊
     }
 }
 
