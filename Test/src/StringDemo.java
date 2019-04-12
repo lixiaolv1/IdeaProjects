@@ -1,4 +1,4 @@
-public class StringDemoOne {
+public class StringDemo {
     public static void main(String[] args) {
         //字符串的不可变性
 
@@ -16,6 +16,7 @@ public class StringDemoOne {
         //此次看线上版本如何更新到线下----成功，此次成功在2019-4-12 11.20下载更新成功
         //只要右键项目—pull一下就可以了
         //修复idea push提交每次everything的问题
+        //是否每次需要右键项目add--然后再push---不正确，还是会提示everything
     }
 }
 
