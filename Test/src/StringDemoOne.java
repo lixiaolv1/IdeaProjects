@@ -1,4 +1,4 @@
-public class StringDemo {
+public class StringDemoOne {
     public static void main(String[] args) {
         //字符串的不可变性
 
@@ -11,6 +11,8 @@ public class StringDemo {
         //因为 “+=” 实际上是concat方法，如
         value = value.concat("盖伦");
         //无法直接使用value.concat()，因为concat此方法最终的输出是new一个新String，不改变原来的对象
-
+        //concat是非常消耗内存的，是两个内存条拼接，然后输出第三个
+        //此次更新能否更新线上版本-----
     }
 }
+
