@@ -3,9 +3,9 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/JavaBase/src/HelloWorld.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter10/StaticDemoTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/modeldemo/GameFrame.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/pkgame/AppMain.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter2/CalcCircleArea.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/project/boodemo_v1/Main.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/Test/src/Helloworld.java" charset="UTF-8" />
   </component>
 </project>
