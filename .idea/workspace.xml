@@ -2,101 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beb0c8-5e6a-4092-831a-b2b871db2d4b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavaBase/.idea/JavaBase.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavaBase/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavaBase/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavaBase/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavaBase/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavaBase/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/Test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/24.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/25.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/26.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/杨玉环.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/王昭君.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/甄嬛.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/苏小小.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/褒姒.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/西施.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/貂蝉.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/赵飞燕.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/钟无艳.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/images/陈圆圆.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/APPMain.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/BRRead.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/BookDemo/Book.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/BookDemo/BookBiz.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/BookDemo/BookTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/BoxingDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/CicrleTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/CircleV3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/DialogDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/HextToDecimalDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/MaxMinDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/ParamDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/PrintCalendarDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/ProductDemo/Product.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/ProductDemo/ProductBiz.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/Role.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/RoleTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/SeedMessageDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/Swap.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/WeekDay.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/jiandaoshitoubu/ComPlayer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/jiandaoshitoubu/GameRoom.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/jiandaoshitoubu/HumanPlayer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/jiandaoshitoubu/TestMain.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/out/production/Test/xinyi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/APPMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/BRRead.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/BookDemo/Book.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/BookDemo/BookBiz.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/BookDemo/BookTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/BoxingDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/CicrleTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/CircleV3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/DialogDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/HextToDecimalDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/MaxMinDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/ParamDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/PrintCalendarDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/ProductDemo/Product.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/ProductDemo/ProductBiz.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/RoleTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/SeedMessageDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/StringDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/Swapone.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/WeekDay.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/jiandaoshitoubu/ComPlayer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/jiandaoshitoubu/GameRoom.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/jiandaoshitoubu/HumanPlayer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/jiandaoshitoubu/TestMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/xinyi.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaBase" afterPath="$PROJECT_DIR$/JavaBase" />
-      <change beforePath="$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/project/boodemo_v1/Book.java" afterPath="$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/project/boodemo_v1/Book.java" />
-      <change beforePath="$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/project/boodemo_v1/BookView.java" afterPath="$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/project/boodemo_v1/BookView.java" />
       <change beforePath="$PROJECT_DIR$/Test/src/StringDemo.java" afterPath="$PROJECT_DIR$/Test/src/StringDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -428,7 +334,7 @@
       <workItem from="1555036272481" duration="2088000" />
       <workItem from="1555039786572" duration="699000" />
       <workItem from="1555040502015" duration="2430000" />
-      <workItem from="1555120030791" duration="48000" />
+      <workItem from="1555120030791" duration="146000" />
     </task>
     <task id="LOCAL-00001">
       <created>1554374432952</created>
@@ -437,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554374432952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="此处不能为空嘛">
+      <created>1555120099054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555120099054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24076000" />
+    <option name="totallyTimeSpent" value="24174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
@@ -483,7 +396,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="此处不能为空嘛" />
+    <option name="LAST_COMMIT_MESSAGE" value="此处不能为空嘛" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
