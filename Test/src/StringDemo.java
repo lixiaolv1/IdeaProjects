@@ -1,6 +1,40 @@
 import java.io.UnsupportedEncodingException;
+import java.util.Scanner;
 
 public class StringDemo {
+
+    public static boolean isDecimal(String str){
+        boolean isDecimal = true;
+        for (int i = 0; i <str.length() ; i++) {
+            if(!Character.isDigit(str.charAt(i))){
+                if (str.charAt(i) == '.'){
+                    if(i == 0 || i == str.length() - 1){//如果小数点在第一位或者最后一位，仍然是非法的，返回false
+                        isDecimal = false;
+                        break;
+                    }
+                }else {//如果当前字符不是数字也不是小数点，证明是非法字符，直接返回flase
+                    isDecimal = false;
+                    break;
+                }
+            }
+        }
+        //如何判断只有一个小数点呢
+        //1.存在小数点 2.从前搜索得下标和从后往前的下标刚好相等，那么不就说明这是同一个小数点
+        if (!(str.contains(".") && str.indexOf(".") == str.lastIndexOf('.'))){
+            return false;
+        }
+
+        //1、判断字符串中的每个元素必须是数字或者小数点
+        //2、如果有小数点，那么小数点不能在第一位和最后一位，并且小数点只能有一个
+
+
+        //        if (str.indexOf('.') == 0 || str.indexOf('.') == str.length()-1){
+//
+//        }
+        return isDecimal;
+    }
+
+
     public static void main(String[] args) throws UnsupportedEncodingException {
         //字符串的不可变性
         //演示常用的几种String对象的构建方式
@@ -24,6 +58,31 @@ public class StringDemo {
         //字符串转码
         String str6 = new String(str1.getBytes(),"UTF-8");
         System.out.println(str6);
+
+        //trim方法：去掉字符串左右两侧的空格—比如登录选项，两边看不清，建议是用户输入用户名后使用
+        Scanner input = new Scanner(System.in);
+        System.out.println("请输入用户名：");
+        String uName = input.nextLine().trim();
+//        String uName = input.next().trim();
+        System.out.println("--" + uName + "--");//如果输入  a b c d ，打印则只会出现--a--
+        //是因为next()方法只能读到空格或回车,使用nextLine()则可以
+
+        //字符串比较
+        System.out.println("abc".equals("abc")); //结果为true
+        System.out.println("abc".compareTo("abc")); //比较Asci码，大于0或者等于0或者小于0，使用compareToIgnoreCase()则忽略的大小写比较
+        System.out.println("abc".startsWith("ab"));//是否以ab开头，是返回true
+        System.out.println("abc".endsWith("bc"));//同上，看结束字符
+        System.out.println("abcdefg".contains("cd")); //是否包含此字符串，返回true
+
+        //获取子串的方法
+        Scanner input1 = new Scanner(System.in);
+        String password = "123456abcdefg";
+        System.out.println(password.indexOf("cd",2));//获取该字符的位置，从0开始，和JS一样，找不到就返回-1
+        //此处的参数  2 ，是从第几位开始计算
+
+        //问题：判断字符串中只能有一个小数点，并且不能在第一位也不能在最后一位
+
+
 
 
         String value = "德玛西亚之力";
