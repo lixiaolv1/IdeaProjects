@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beb0c8-5e6a-4092-831a-b2b871db2d4b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/User/StringUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/User/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/User/UserMain.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaBase" afterPath="$PROJECT_DIR$/JavaBase" />
-      <change beforePath="$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter14/Config.properties" afterPath="$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter14/Config.properties" />
       <change beforePath="$PROJECT_DIR$/Test/src/StringDemo.java" afterPath="$PROJECT_DIR$/Test/src/StringDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -120,13 +114,6 @@
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +340,7 @@
       <workItem from="1555899474643" duration="1304000" />
       <workItem from="1556268661997" duration="1797000" />
       <workItem from="1556416607614" duration="4633000" />
-      <workItem from="1556503341100" duration="12475000" />
+      <workItem from="1556503341100" duration="12593000" />
     </task>
     <task id="LOCAL-00001">
       <created>1554374432952</created>
@@ -376,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555499362157</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/lixiaolv1/IdeaProjects&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1556533843892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556533843893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70113000" />
+    <option name="totallyTimeSpent" value="70231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="471" y="1" width="1400" height="1000" extended-state="0" />
