@@ -43,8 +43,8 @@
       <file leaf-file-name="StringBufferDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/src/StringBufferDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="699">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -388,7 +388,7 @@
       <workItem from="1556416607614" duration="4633000" />
       <workItem from="1556503341100" duration="12792000" />
       <workItem from="1556596806413" duration="9483000" />
-      <workItem from="1557025738224" duration="11609000" />
+      <workItem from="1557025738224" duration="11710000" />
     </task>
     <task id="LOCAL-00001">
       <created>1554374432952</created>
@@ -453,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557052338567</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="stringBuffer的方法">
+      <created>1557052422962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557052422962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91522000" />
+    <option name="totallyTimeSpent" value="91623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="10" width="1400" height="1000" extended-state="0" />
@@ -502,7 +509,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="此处不能为空嘛" />
     <MESSAGE value="Merge branch 'master' of https://github.com/lixiaolv1/IdeaProjects&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/lixiaolv1/IdeaProjects&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="stringBuffer的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="stringBuffer的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -775,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/src/StringBufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="699">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
