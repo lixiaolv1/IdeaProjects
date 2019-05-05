@@ -388,7 +388,7 @@
       <workItem from="1556416607614" duration="4633000" />
       <workItem from="1556503341100" duration="12792000" />
       <workItem from="1556596806413" duration="9483000" />
-      <workItem from="1557025738224" duration="11543000" />
+      <workItem from="1557025738224" duration="11609000" />
     </task>
     <task id="LOCAL-00001">
       <created>1554374432952</created>
@@ -446,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557052202160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/lixiaolv1/IdeaProjects&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1557052338567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557052338567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91456000" />
+    <option name="totallyTimeSpent" value="91522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="10" width="1400" height="1000" extended-state="0" />
