@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beb0c8-5e6a-4092-831a-b2b871db2d4b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/RpgDemo/Hero.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/RpgDemo/HeroTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Test/src/RpgDemo/Warrior.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Test/src/StringDemo.java" afterPath="$PROJECT_DIR$/Test/src/StringDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -414,7 +412,7 @@
       <workItem from="1556503341100" duration="12792000" />
       <workItem from="1556596806413" duration="9483000" />
       <workItem from="1557025738224" duration="12052000" />
-      <workItem from="1557110473359" duration="13987000" />
+      <workItem from="1557110473359" duration="14059000" />
     </task>
     <task id="LOCAL-00001">
       <created>1554374432952</created>
@@ -500,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557052680217</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="5/6--关于方法的继承和重写">
+      <created>1557138267305</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557138267306</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105952000" />
+    <option name="totallyTimeSpent" value="106024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="10" width="1400" height="1000" extended-state="0" />
@@ -552,7 +557,8 @@
     <MESSAGE value="stringBuffer的方法" />
     <MESSAGE value="5/5更新，无法更新" />
     <MESSAGE value="5/5更新，无法更新----" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/5更新，无法更新----" />
+    <MESSAGE value="5/6--关于方法的继承和重写" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/6--关于方法的继承和重写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
