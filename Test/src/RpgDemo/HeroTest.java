@@ -10,16 +10,19 @@ public class HeroTest {
 //        韩信.setNickName("韩信");
 //        韩信.move();
 
-        Warrior 曹操1 = new Warrior("曹操",1500);
-        曹操1.setLevel(89);
-        Warrior 曹操2 = new Warrior("曹操",1500);
-        曹操2.setLevel(99);
+//        Warrior 曹操1 = new Warrior("曹操",1500);
+//        曹操1.setLevel(89);
+//        Warrior 曹操2 = new Warrior("曹操",1500);
+//        曹操2.setLevel(99);
+//
+//        System.out.println(曹操1.compareTo(曹操2));
+//        System.out.println(曹操1 ==  曹操2);
+//        System.out.println(曹操1.equals(曹操2));
+//
+//        System.out.println(曹操1);//当print打印的时候，自动调用toString方法
 
-        System.out.println(曹操1.compareTo(曹操2));
-        System.out.println(曹操1 ==  曹操2);
-        System.out.println(曹操1.equals(曹操2));
-
-        System.out.println(曹操1);//当print打印的时候，自动调用toString方法
+        Archmage 貂蝉 = new Archmage("貂蝉");
+        System.out.println(貂蝉);
     }
 
 }
