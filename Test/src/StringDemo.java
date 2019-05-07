@@ -82,7 +82,9 @@ public class StringDemo {
 
         //问题：判断字符串中只能有一个小数点，并且不能在第一位也不能在最后一位
 
-
+        //subString[beginIndex,endIndex) 即[1,3)
+        System.out.println(password.substring(1,3));//从第一位开始，结束位置是3但不包含3
+        System.out.println(password.substring(3));//从3号索引开始到结束
 
 
         String value = "德玛西亚之力";
