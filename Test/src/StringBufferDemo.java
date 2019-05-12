@@ -8,13 +8,13 @@ public class StringBufferDemo {
 
         //如果拼接字符串的操作很多的话，那么使用+号的效率是非常低的
         final int N = 100000;
-//        long startTime = System.currentTimeMillis();
-//        String str = "*";
-//        for (int i = 0; i < N; i++) {//十万次循环，拼接用时
-//            str += "*";
-//        }
-//        long endTime = System.currentTimeMillis();
-//        System.out.println("+=用时：" + (endTime - startTime) + "毫秒");
+        long startTime = System.currentTimeMillis();
+        String str = "*";
+        for (int i = 0; i < N; i++) {//十万次循环，拼接用时
+            str += "*";
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("+=用时：" + (endTime - startTime) + "毫秒");
 //
 //        //接下来使用stringBuffer进行拼接
 //        startTime = System.currentTimeMillis();
