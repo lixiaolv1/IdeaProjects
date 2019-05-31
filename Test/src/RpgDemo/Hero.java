@@ -12,6 +12,7 @@ public class Hero {
 //        System.out.println("父类的默认构造方法！");//实际情况中，先调用父类的构造方法
     }
 
+
     public int compareToByName(Hero hero){
         return getNickName().compareTo(hero.getNickName());
     }

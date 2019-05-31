@@ -20,7 +20,7 @@ public class ObjectArraySortDemo {
 
     public static void main(String[] args) {
 
-        Warrior 战士1 = new Warrior();
+       Warrior 战士1 = new Warrior();
         Warrior 战士2 = new Warrior();
         Warrior 战士3 = new Warrior();
         Warrior 战士4 = new Warrior();
