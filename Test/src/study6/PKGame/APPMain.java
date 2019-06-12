@@ -13,5 +13,7 @@ public class APPMain {
        // hero1.PK( hero2 );
         castle.PK( hero1 );
 
+        //6-12更新
+
     }
 }
