@@ -6,11 +6,16 @@
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter10/StaticDemoTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter10/chunwan/ChunWanTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/modeldemo/GameFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/modeldemo/Hero.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/modeldemo/HeroTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/pkgame/AppMain.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter11/pkgame/Castle.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter2/CalcCircleArea.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter9/userdemo/StringUtil.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter9/userdemo/User.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/chapter9/userdemo/UserMain.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JavaBase/src/com/xuetang9/javabase/project/boodemo_v1/Main.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Test/src/StringBufferDemo.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
