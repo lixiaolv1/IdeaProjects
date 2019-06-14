@@ -10,6 +10,12 @@ import java.io.IOException;
 public class CheckedException {
     public static void main(String[] args) throws IOException {
         //此处如果不catch，就必须要throws IOException
+
+        String stValue = "123a";
+        //字符串转换成数字
+        int value =Integer.parseInt(stValue);
+        System.out.println(value);
+
         File file = new File("c:/test.txt");
         try {
             FileWriter writer = new FileWriter( file );//文件的写入器，用来将内容写入到文件
