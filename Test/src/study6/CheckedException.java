@@ -22,8 +22,6 @@ public class CheckedException {
         //判断这个文件是否存在
         System.out.println(file.exists());
 
-
-
     }
 
 }
