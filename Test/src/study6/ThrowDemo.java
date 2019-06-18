@@ -35,11 +35,11 @@ class Hero{
     /*
      * 英雄的骑马方法-当英雄的健康值低于50，不允许骑马
      */
-    public void rideHorse() throws LessThanException{
+    public void rideHorse() throws RideHorseException{
         if (health >= 50) {
             System.out.println(name + "正在快乐的骑马！");
         }else{
-            throw new LessThanException(health);
+            throw new RideHorseException(health);
         }
 
     }
