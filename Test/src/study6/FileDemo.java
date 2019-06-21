@@ -1,5 +1,6 @@
 package study6;
 
+import javax.swing.*;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
@@ -9,12 +10,23 @@ public class FileDemo {
 
     //使用常量来定义路径方便修改
     //切记删除文件的时候慎用，刚才就踏马把这个java文件删了
-    private static final String FilePath = "Test/src/study6/SuperDemo";
+    private static final String FilePath = "Test/src/study6";
     //在Windows平台下，路径可以写作 “Test\\src\\study6\\FileDemo.java”,但是不建议这么做
 
     public static void main(String[] args) throws IOException {
         //“.”路径表示当前工程根目录
-        File file = new File(FilePath);
+        JFileChooser fileChooser = new JFileChooser(new File("."));
+
+        //让fileChooser选择文件夹
+        fileChooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+        fileChooser.setFileFilter(new MyFileFilter());
+        fileChooser.showOpenDialog(null);   //显示选择文件的对话框(null表示无父窗体）
+        File file = fileChooser.getSelectedFile();  //获得用户选择的文件
+        //建议使用的时候判断file是否为null，如果为null，表示用户点了“取消”按钮
+        if (null == file){
+            System.out.println("用户未选择任何文件");
+            System.exit(0);
+        }
 
         System.out.println("文件/文件夹是否存在： " + file.exists());
         System.out.println("是不是一个文件： " + file.isFile());
@@ -26,7 +38,7 @@ public class FileDemo {
         System.out.println("是否隐藏" + file.isHidden());
         System.out.println("是否可读" + file.canRead());
         System.out.println("是否可写" + file.canWrite());
-        System.out.println("所占空间" + file.length());
+        System.out.println("所占空间" + file.length()/1024 + "KB");
         //只能计算文件大小，文件夹大小需要计算——所有文件大小累加
 
         /*
@@ -71,19 +83,41 @@ public class FileDemo {
          * file.listFiles();列出当前目录下的所有文件对象
          * file.list()；列出所有的文件名
          */
-        String[] fileNames = file.list(new DirFilter());
+        if (file.isDirectory()){
+            String[] fileNames = file.list(new DirFilter());
+            System.out.println(file.getAbsolutePath() + "路径下的所有文件及文件夹：");
+            for (int i = 0; i < fileNames.length; i++) {
+                System.out.println(fileNames[i]);
+            }//因为打开的是一个普通的文件，不是文件夹，所以此处数组为空
 
-        for (int i = 0; i < fileNames.length; i++) {
-            System.out.println("执行一次");
-            System.out.println(fileNames[i]);
         }
 
     }
+
+    static class MyFileFilter extends javax.swing.filechooser.FileFilter {
+        @Override
+        public boolean accept(File f){
+            if (f.getName().endsWith("txt")){
+                return true;
+            }
+            return false;
+        }
+
+        @Override
+        public String getDescription() {
+            return "*.*,* .txt*";
+        }
+
+    //直接过滤掉了所有文件，待会儿试一下全部文件
+    }
+
 
     //补充：选学
     /*
      * 自定义的文件名过滤器，必须实现FilenameFilter接口
      */
+
+
   static  class DirFilter implements FilenameFilter{
 
         @Override
@@ -92,7 +126,7 @@ public class FileDemo {
             if (name.endsWith("txt") || name.endsWith("docx")) {
                 return true;
             }
-            return false;
+            return true;
         }
     }
 
