@@ -38,7 +38,7 @@ public class FileDemo {
         System.out.println("是否隐藏" + file.isHidden());
         System.out.println("是否可读" + file.canRead());
         System.out.println("是否可写" + file.canWrite());
-        System.out.println("所占空间" + file.length()/1024 + "KB");
+        System.out.println("所占空间" + file.length() + "B");
         //只能计算文件大小，文件夹大小需要计算——所有文件大小累加
 
         /*
