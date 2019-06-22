@@ -52,7 +52,7 @@ public class Main {
         if(count2 % 2 != 0) {
             count2 += 1;
         }
-        System.out.println(count2/2);
+        System.out.println("共有："+ count2/2 +"种组合");
 
     }
 
