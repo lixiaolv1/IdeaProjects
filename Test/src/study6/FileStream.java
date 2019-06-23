@@ -17,8 +17,8 @@ public class FileStream {
          * System.out默认方法就是 PrintStream out = null;
          *
          */
-        // ReadFile();
-        WriteFile();
+        ReadFile();
+      //  WriteFile();
     }
 
     public static void WriteFile() throws IOException {
